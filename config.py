@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You have to join in my Channe Anime Complex to use me</b>\n\n<b>Kindly Please join Channel and try again.</b>\n\n<b>Thanks & regards.</b>\n\n<b><a href="https://telegram.me/TeamWarlords">Team Warlords</a></b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "**Hello {first}** \n**You have to join in my Channel Anime Complex to use me** \n**Kindly Please join Channel and try again.** \n**Thanks & regards.** \n[**Team Warlords**](https://telegram.me/teamWarlords)")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
