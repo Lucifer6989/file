@@ -147,7 +147,7 @@ async def not_joined(client: Client, message: Message):
                 id = message.from_user.id
             ),
         reply_markup = InlineKeyboardMarkup(buttons), quote = True, disable_web_page_preview = True,
-parse_mode=ParseMode.MARKDOWN
+        parse_mode=ParseMode.MARKDOWN,
     )
 
 @Bot.on_message(filters.command('users') & filters.private & filters.user(ADMINS))
